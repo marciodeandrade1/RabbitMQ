@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExchange", "DemoExchang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQueue", "DemoQueue\DemoQueue.csproj", "{74275492-8407-4DED-9457-7F2E1FA125C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQueueBinding", "DemoQueueBinding\DemoQueueBinding.csproj", "{814B4397-B83F-480B-8C14-7AED31F1DDD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{74275492-8407-4DED-9457-7F2E1FA125C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74275492-8407-4DED-9457-7F2E1FA125C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74275492-8407-4DED-9457-7F2E1FA125C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814B4397-B83F-480B-8C14-7AED31F1DDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814B4397-B83F-480B-8C14-7AED31F1DDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814B4397-B83F-480B-8C14-7AED31F1DDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814B4397-B83F-480B-8C14-7AED31F1DDD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

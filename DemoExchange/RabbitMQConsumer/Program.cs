@@ -21,11 +21,10 @@ namespace RabbitMQConsumer
             };
             var connection = connectionFactory.CreateConnection();
             var channel = connection.CreateModel();
-            // accept only one unack-ed message at a time
-            // uint prefetchSize, ushort prefetchCount, bool global
+            
             channel.BasicQos(0, 1, false);
             MessageReceiver messageReceiver = new MessageReceiver(channel);
-            channel.BasicConsume("demoqueue", false, messageReceiver);
+            channel.BasicConsume("request.queue", false, messageReceiver);
             Console.ReadLine();
         }
     }
